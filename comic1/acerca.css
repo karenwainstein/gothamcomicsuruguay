@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Estilos para la barra de navegación */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+    background-color: #eaeaea;
+}
+
+.navbar .logo {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+.navbar ul li {
+    margin-left: 1.5rem;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Estilos para la sección de Acerca */
+.acerca {
+    margin: 2rem 0;
+}
+
+.imagen-acerca img {
+    width: 100%;
+    height: auto;
+    margin-top: -2rem;
+}
+
+.texto-acerca {
+    padding: 2rem;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.texto-acerca h2 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: #444;
+}
+
+.texto-acerca p {
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Estilos para el footer */
+footer {
+    padding: 2rem;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-section {
+    display: flex;
+    gap: 5rem;
+    margin-bottom: 1rem;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 1.2rem;
+    text-align: center;
+}
+
+.footer-column h3 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.footer p {
+    margin-top: 40px;
+    font-size: 1.5rem;
+}
+
+.footer-copyright p {
+    font-size: 1rem;
+    margin-bottom: -1rem;
+}
